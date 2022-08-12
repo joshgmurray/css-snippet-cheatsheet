@@ -1,0 +1,54 @@
+:root {
+    --background: rgb(120, 120, 104);
+    --text: #f0ffff;
+    --bordrad: 20px
+}
+
+/* Elements Here */
+
+body {
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    justify-content: flex-start;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+    position: fixed;
+    top: 0;
+    text-align: center;
+    font-size: 300%;
+    margin: 2%;
+}
+
+.head-descr {
+     flex-wrap: wrap;
+    color: var(--text);
+    text-align: center;
+    margin: 6% 20%;
+}
+
+.css-boxes {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.box {
+
+}
+
+/* Classes Here */
+
+/* Psuedo Here */
+
+/* Media Here */
